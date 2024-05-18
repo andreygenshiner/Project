@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menu{
+    height:100px;
+    width:100vw;
+    display:grid;
+    grid-template-columns:15% 1fr 15%;
+    grid-template-rows:100px;
+    background-color:black;
+    color:white;
+    justify-content:center;
+    padding:25px;
+}
+.t1{
+    height:40px;
+    width:40px;
+}
+.hoh2{
+    width:15%;
+    height:100px;
+}
+.menu2{
+    display:flex;
+    justify-content:space-around;
+}
+.but{
+    border-radius:15px;
+    background-color:hsla(0,0%,100%,.06);
+    color:#9dff12;
+    padding:7px;
+    border:none;
+}
+.made{
+    height:100vh;
+    width:100vw;
+    background:url(bg-hero-561b6774.webp);
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color:black;
+    background-size:contain;
+}
+.subtitle{
+    font-size:70px;
+    color:white;
+    padding-left:25px;
+}
+.text{
+    font-size:20px;
+    color:white;
+    padding-left:25px;
+    padding-top:15px;
+}
+.sot{
+    height:150px;
+    width:800px;
+    display:flex;
+    justify-content:space-around;
+}
+.t2{
+    height:220px;
+    width:220px;
+}
+.t3{
+    height:50px;
+    width:50px;
+}
+.online{
+    height:230px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.box{
+    height:60vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(0, 0, 0);
+    padding-top:150px;
+    color:white;
+}
+.soc3{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+.t5{
+    width:150px;
+    height:150px;
+    padding-top:50px;
+}
+.box2{
+    height:50vh;
+    width:100vw;
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+.bkl{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.bkl3{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+}
+.bkl2{
+    width:350px;
+    text-align:center;
+}
+.text3{
+    font-size:35px;
+}
+.box3{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(0, 0, 0);
+}
+.subtitle4{
+    font-size:80px;
+    color:rgb(144, 141, 141);
+    text-align:center;
+    padding-top:20px;
+}
+.white{
+    color:white;
+}
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+}
+.cards2{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+}
+.subtitle5{
+    color:#9dff12;
+}
+.text5{
+    color:white;
+}
+.cardstreet{
+    width:25%;
+    text-align:center;
+}
+.box4{
+    background-color:black;
+    padding-top:70px;
+}
+.subtitle6{
+    font-size:60px;
+    text-align:center;
+    color:white;
+    padding-top:40px;
+}
+.sumbox{
+    height:30vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding-top:40px;
+    gap:90px;
+}
+.subbox{
+    height:150px;
+    width:150px;
+}
+.x{
+    font-size:25px;
+    position: relative;
+}
+.x::before{
+    content:"";
+    height:50px;
+    width:50px;
+    background:url(х.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    position:absolute;
+    top:0;
+    left:-60px;
+}
+.x2{
+    font-size:15px;
+    padding-top:45px;
+    text-decoration: underline;
+}
+.x2:hover{
+    color:#9dff12;
+}
+.dis{
+    font-size:25px;
+    position:relative;
+}
+.dis::before{
+    content:"";
+    height:50px;
+    width:50px;
+    background:url(Дискорд.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    position:absolute;
+    top:0;
+    left:-60px;
+}
+.dis2{
+    font-size:15px;
+    padding-top:45px;
+    text-decoration: underline;
+}
+.dis2:hover{
+    color:#9dff12;
+}
+.telega{
+    font-size:25px;
+    position:relative;
+}
+.telega::before{
+    content:"";
+    height:50px;
+    width:50px;
+    background:url(Телеграм.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    position:absolute;
+    top:0;
+    left:-60px;
+}
+.telega2{
+    font-size:15px;
+    padding-top:45px;
+    text-decoration: underline;
+}
+.telega2:hover{
+    color:#9dff12;
+}
+.subbox4{
+    text-align:center;
+    background-color:black;
+    color:#9dff12;
+}
+.text6{
+    font-size:20px;
+
+}
+.box5{
+    height:45vh;
+    width:100vw;
+    background-color:black;
+    color:white;
+    padding-left:15px;
+    padding-top:70px;
+}
+.subtitle7{
+    color:white;
+    padding-top:20px;
+    font-size:50px;
+    padding-left:20px;
+}
+.text7{
+    padding-top:20px;
+    padding-left:20px;
+}
+.box6{
+    background-color:black;
+    color:white;
+}
+.case{
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.green{
+    font-size:35px;
+    color:#9dff12;
+}
+.span{
+    font-size:25px;
+    padding-top:45px;
+}
+.t8{
+    width:400px;
+}
+.box7{
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+    padding-top:50px;
+}
+.subtitle8{
+    font-size:15px;
+}
+.chain{
+    font-size:25px;
+}
+.subtitle9{
+    font-size:100px;
+}
+.pic{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.t9{
+    height:200px;
+    width:200px;
+}
+.but2{
+    border-radius:15px;
+    margin-top:20px;
+    background-color:rgb(47, 44, 44);
+    color:#9dff12;
+    padding:5px;
+}
+.box8{
+    height:50vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    background-color: black;
+    color:white;
+}
+.boxtext{
+    font-size:15px;
+    width:33%;
+    text-align:center; 
+    padding-top:100px;
+}
+.span1{
+    font-size:20px;
+    color:#9dff12;
+}
+.bnd{
+    border:1px solid #9dff12;
+    border-radius:15px;
+}
+.box9{
+    width:100vw;
+    background-color:black;
+    color:white;
+}
+.subbox9{
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    padding-top:50px;
+}
+.boxtext2{
+    padding:10px;
+}
+.subtitle10{
+    font-size:35px;
+    padding-left:60px;
+}
+.text10{
+    font-size:25px;
+    padding-left:60px;
+}
+.span3{
+    font-size:20px;
+    color:#9dff12;
+}
+.span2{
+    font-size:10px;
+    color:rgb(74, 74, 74);
+}
+.text11{
+    padding-top:15px;
+}
+.box10{
+    width:100vw;
+    background-color:rgb(68, 66, 66);
+    color:white;
+}
+.subtitle11{
+    font-size:80px;
+    text-align:center;
+    padding-top:50px;
+}
+.span4{
+    color:#9dff12;
+}
+.input1{
+    height:50px;
+    width:205px;
+    padding-right:10px;
+    background-color:none;
+    margin:15px;
+    border-radius:13px;
+    border:none;
+}
+.email{
+    display:flex;
+    justify-content:center;
+}
+.but3{
+    height:50px;
+    width:80px;
+    padding-right:10px;
+    border-radius:12px;
+    margin-top:15px;
+    border:none;
+}
+.box11{
+    height:50vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+}
+.left{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    text-align:left;
+}
+
+.right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    align-items:center;
+}
+.t10{
+    height:250px;
+    width:150px;
+}
+.subtitle13{
+    font-size:30px;
+}
+.text12{
+    padding-top:15px;
+}
+.box12{
+    height:70vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+}
+.left2{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    flex-direction:column;
+}
+.subtitle14{
+    font-size:35px;
+    margin-right:225px;
+}
+.text13{
+    font-size:25px;
+    margin-top:25px;
+}
+.span6{
+    color:#9dff12;
+    margin-top:15px;
+}
+.right{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+.text14{
+    font-size:30px;
+    padding-top:25px;
+}
+.text14:hover{
+    color:#9dff12;
+}
+@media (max-width: 450px){
+    .menu{
+        height:100px;
+        width:430px;
+        display:grid;
+        grid-template-columns:100px 230px 100px;
+        grid-template-rows:60px;
+    }
+    .t1{
+        width:20px;
+        height:20px;
+    }
+    .hoh2{
+        font-size:10px;
+        width:7%;
+        height:50px;
+    }
+    .subtitle{
+        font-size:25px;
+    }
+    .text{
+        font-size:10px;
+    }
+    .t2{
+        height:150px;
+        width:150px;
+        padding-right:60px;
+    }
+    .bnb{
+        width:430px;
+    }
+    .made{
+        height: 35vh;
+        width: 80vw;
+        background: url(bg-hero-561b6774.webp);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-size: 150%;
+    }
+    .box{
+        height: 60vh;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 0;
+        flex-direction: column;
+    }
+    .subtitle2{
+        font-size:20px;
+    }
+    .text2{
+        font-size:10px;
+        text-align:center;
+        padding-top:5px;
+    }
+    .link{
+        padding-top:5px;
+    }
+    .box2{
+        height:80vh;
+        width:60vw;
+    }
+    .text3{
+        font-size:15px;
+        width:210px;
+        text-align:center;
+    }
+    .bkl{
+        width:47vw;
+    }
+    .bkl3{
+        width:47vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .bkl2{
+        width:47vw;
+    }
+    .text4{
+        font-size:15px;
+    }
+    .box3{
+        height:80vh;
+        width:47vw;
+    }
+    .subtitle4{
+        font-size:30px;
+    }
+    .cards{
+        flex-direction:column;
+        background-color: black;
+        gap: 50px;
+    }
+    .cardstreet{
+        width:47vw;
+    }
+    .t6{
+        height:120px;
+        width:125px;
+    }
+    .cards2{
+        background-color: black;
+    }
+    .box4{
+        width:47vw;
+    }
+    .subtitle6{
+        font-size:30px;
+    }
+    .sumbox{
+        height:70vh;
+        width:47vw;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        gap:150px;
+    }
+    .subbox{
+        height:45px;
+        text-align:center;
+    }
+    .subbox2{
+        text-align:center;
+    }
+    .subbox3{
+        text-align:center;
+    }
+    .x::before{
+        content: "";
+        height: 50px;
+        width: 50px;
+        background: url(х.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    .dis::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+        background: url(Дискорд.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    .telega::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+        background: url(Телеграм.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        top: 50px;
+        left: 24px;
+    }
+    .box5{
+        width:47vw;
+    }
+    .subtitle7{
+        font-size:25px;
+        text-align:center;
+        padding:0;
+    }
+    .text7{
+        padding:0;
+        font-size:15px;
+        text-align:center;
+    }
+    .box6{
+        width:47vw;
+    }
+    .case{
+        height:50vh;
+        width:47vw;
+        flex-direction:column;
+    }
+    .span{
+        font-size:15px;
+        text-align:center;
+    }
+    .green{
+        text-align:center;
+    }
+    .t7{
+        height:150px;
+        width:200px;
+    }
+    .t8{
+        height:150px;
+        width:200px;
+    }
+    .box7{
+        width:47vw;
+        flex-direction:column;
+    }
+    .subtitle8{
+        text-align:center;
+    }
+    .subtitle9{
+        font-size:25px;
+        text-align:center;
+    }
+    .shamc{
+        flex-direction:column;
+    }
+    .text8{
+        font-size:12px;
+        text-align:center;
+    }
+    .t9{
+        height:150px;
+        width:200px;
+        padding-top:15px;
+    }
+    .box8{
+        height:100vh;
+        width:47vw;
+        flex-direction:column;
+    }
+    .boxtext{
+        width:47vw;
+        padding:0;
+    }
+    .box9{
+        padding-top:20px;
+        height:130vh;
+        width:47vw;
+    }
+    .subtitle10{
+        font-size:35px;
+        padding:0;
+        text-align:center;
+    }
+    .text10{
+        padding:0;
+        text-align:center;
+        font-size:22px;
+    }
+    .subbox9{
+        width:47vw;
+        flex-direction:column;
+        padding:0;
+    }
+    .text11{
+        text-align:center;
+    }
+    .box10{
+        height:35vh;
+        width:47vw;
+    }
+    .subtitle11{
+        font-size:25px;
+        text-align:center;
+    }
+    .email{
+        flex-direction:column;
+        align-items:center;
+    }
+    .input1{
+        width:170px;
+        padding-left:7px;
+    }
+    .box11{
+        height:100vh;
+        width:47vw;
+        flex-direction:column;
+        align-items:center;
+    }
+    .left{
+        text-align:center;
+        width:47vw;
+    }
+    .right{
+        flex-direction:column;
+    }
+    .t10{
+        height:160px;
+        width:125px;
+    }
+    .box12{
+        height:100vh;
+        width:47vw;
+        flex-direction:column;
+    }
+    .left2{
+        width:47vw;
+        text-align:center;
+        margin:0;
+    }
+    .text13{
+        text-align:center;
+    }
+    .subtitle14{
+        margin:0;
+    }
+    .text14{
+        font-size:25px;
+        text-align:center;
+    }
+    }
+</style>
+</head>
+<body>
+    <div class="menu">
+        <div class="hoh">
+            <img class="t1" src="logo-hoh.svg" alt="">
+        </div>
+        <div class="menu2">
+        <div class="hoh2">About</div>
+        <div class="hoh2">Key Features</div>
+        <div class="hoh2">Get Started</div>
+        <div class="hoh2">$HAMC</div>
+        <div class="hoh2">Roadmap</div>
+        <div class="hoh2">Marketplace</div>
+        <div class="hoh2">Team</div>
+        <div class="hoh2">FAQ</div>
+    </div>
+        <div class="hoh3">
+            <button class="but">WhitePaper</button>
+        </div>
+    </div>
+    <div class="made">
+        <h1 class="subtitle">Play Texas<br>Hold’em – earn<br>cryptocurrency</h1>
+        <p class="text">The first NFT game with the ‘Think-to-Earn’ concept, where you can<br>enhance your intelligence by competing with other users.</p>
+    <div class="sot">
+        <div class="bnb">
+            <img class="t2" src="bnb-chain-full-binance-smart-chain-logo-1.svg" alt="">
+            </div>
+        <div class="online">
+        <div class="soc2">
+            <img class="t3" src="icons8-x-80.png" alt="">
+            <img class="t3" src="icons8-discord-50.png" alt="">
+            <img class="t3" src="icons8-телеграмма-app-50.png" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="soc3">
+            <h1 class="subtitle2">Forbes</h1>
+            <p class="text2">A new and fast-developing mobile game</p>
+            <a class="link">Read More</a>
+        </div>
+        <div class="soc3">
+            <h1 class=subtitle2>CoinMarketCap</h1>
+            <p class="text2">The project’s concept is focused on fair and just competitions</p>
+            <a class="link">Read More</a>
+        </div>
+        <div class="soc3">
+            <img class="t4" src="icons8-ссылка-50.png" alt="">
+            <p class="text2">and 74 more media...</p>
+        </div>
+        </div>
+        <div class="box2">
+            <div class="bkl">
+                <p class="text3">Revolutionary project merging two areas</p>
+                <img class="t5" src="logo-hoh.svg" alt="">
+            </div>
+            <div class="bkl3">
+            <div class="bkl2">
+               <h1 class="subtitle3">GameFi</h1>
+               <p class="text4">We are the first Think-to-Earn concept game, designed to enhance critical thinking and decision-making abilities with unique blockchain technology.</p>
+            </div>
+            <div class="bkl2">
+                <h1 class="subtitle3">Poker</h1>
+                <p class="text4">The first Web3 poker space with gamification and unlimited earning opportunities without mandatory investments.</p>
+            </div>
+            </div>
+        </div>
+        <div class="video">
+            <div style="padding:55.83% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/844281745?h=4faf2f18b5&autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen muted></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="box3">
+            <h1 class="subtitle4">Play to <span class="white">Earn</span>Think to <span class="white">Win</span></h1>
+        <div class="cards">
+            <div class="cardstreet">
+                <img class="t6" src="card-poker-1-31aeb396.webp" alt="">
+                <h1 class="subtitle5">Texas Hold’em</h1>
+                <p class="text5">We use the popular poker version — Texas Hold’em to let Hamsters compete.</p>
+            </div>
+            <div class="cardstreet">
+                <img class="t6" src="free-2-1-91b7d908.webp" alt="">
+                <h1 class="subtitle5">Free to Play</h1>
+                <p class="text5">You will receive a hamster character immediately after registration, free of charge.</p>
+            </div>
+            <div class="cardstreet">
+                <img class="t6" src="Variety-1-d49d8d88.webp" alt="">
+                <h1 class="subtitle5">NFT Hamsters</h1>
+                <p class="text5">Players can choose from a variety of NFT Hamsters, each with its own unique characteristics. These NFT Hamsters are available for purchase in our Marketplace.</p>
+            </div>           
+        </div>
+        <div class="cards2">
+            <div class="cardstreet">
+                <img class="t6" src="earn-1-48752764.webp" alt="">
+                <h1 class="subtitle5">Earn $HAMC</h1>
+                <p class="text5">Your efforts are rewarded with $HAMC tokens! Triumph in thrilling games, complete the quest, and reach milestones to amass these valuable tokens.</p>
+            </div>
+            <div class="cardstreet">
+                <img class="t6" src="spend-1-1-6f73e455.webp" alt="">
+                <h1 class="subtitle5">NFT Attributes</h1>
+                <p class="text5">With the help of NFT attributes, you can boost your earnings, as they provide additional income in $HAMC tokens.</p>
+            </div>
+            <div class="cardstreet">
+                <img class="t6" src="tables-1-1-3173d00b.webp" alt="">
+                <h1 class="subtitle5">NFT Tables</h1>
+                <p class="text5">As the owner of the NFT table you will be receiving a percentage depending on the amount of the games that have been played at your table as well as the level of your NFT table.</p>
+            </div>   
+        </div>
+        <div class="box4">
+            <h1 class="subtitle6">Events and promotions</h1>
+            </div>
+        <div class="sumbox">
+            <div class="subbox">
+                <p class="x">Twitter</p>
+                <a class="x2">Follow us on X</a>
+            </div>
+            <div class="subbox2">
+                <p class="dis">Discord</p>
+                <a class="dis2">Join our server</a>
+            </div>
+            <div class="subbox3">
+            <p class="telega">Telegram</p>
+            <a class="telega2">Join our channel</a>
+        </div>
+         </div>
+        <div class="subbox4">
+            <p class="text6">Subscribe to our social media channels and be the first to<br>know about project news!</p>
+        </div>
+        <div class="box5">
+            <h1 class="subtitle7">Getting Started with<br>House of Hamsters</h1>
+            <p class="text7">House of Hamsters is a blockchain game that rewards players<br>for their smart decision-making. Play Texas Hold’em and earn<br>cryptocurrency.</p>
+        </div>
+        <div class="box6">
+            <div class="case">
+                <p class="span"><span class="green">01 Register</span><br><br>Download the House of Hamsters game from Google Play or the App Store<br>on your smartphone and create an account.</p>
+                <img class="t7" src="01_Register.webp" alt="">
+            </div>
+            <div class="case">
+                <p class="span"><span class="green">02 Set Up Your Wallet</span><br><br>After registration, set up your wallet within the app.</p>
+                <img class="t8" src="04_Earn-1-1-9619d8b0.webp" alt="">
+            </div>
+            <div class="case">
+                <p class="span"><span class="green">03 Get a Free Hamster and Try to Play</span><br><br>Right after sign-up, enjoy a complimentary non-NFT character, Hamster,<br>and an energy boost. Now you can immerse yourself in the app, take on<br>energy tournaments, and challenge rivals.</p>
+                <img class="t7" src="03_Free-2-1-fcf31a0d.webp" alt="">
+            </div>
+            <div class="case">
+                <p class="span"><span class="green">04 Start making $HAMC</span><br><br>Secure top-three spots in energy tournaments for rewarding $HAMC token<br>earnings.</p>
+                <img class="t7" src="02_Earn-2-1-ad80a5e4.webp" alt="">
+            </div>
+            <div class="case">
+                <p class="span"><span class="green">05 Boost Earnings with NFTs</span><br><br>Enhance energy tournament gains through NFT characters or attributes.</p>
+                <img class="t7" src="05_Increase-2-64295b61.webp" alt="">
+            </div>
+        </div>
+        <div class="box7">
+            <div class="shamc">
+                <p class="subtitle8">Powered by<span class="chain"><br>BNB CHAIN</span></p>
+                <h1 class="subtitle9">$HAMC</h1>
+                <p class="text8">$HAMC is a token created on the Binance Smart Chain (BSC) with an<br>unlimited total emission, functioning as a digital asset operating on the<br>BSC blockchain. $HAMC serves as the key token within the house of<br>Hamsters ecosystem, managing the in-game economy and ensuring its<br>stability, enabling players to monetize their activities and play to earn.</p>
+            </div>
+            <div class="pic">
+                <img class="t9" src="HAMC-2.svg" alt="">
+                <button class="but2">Detailed Tokenomics</button>
+            </div>
+        </div>
+        <div class="box8">
+            <div class="boxtext">
+                <p class="text9"><span class="span1">Transparency</span><br><br>House of Hamsters uses the cutting-edge<br>power of blockchain technology to<br>document all transactions in a<br>transparent, public ledger. Thanks to the<br>open source shuffling and dealing of<br>cards, we provide a completely open and<br>fair competition.</p>
+            </div>
+            <div class="boxtext">
+                <p class="text9"><span class="span1">Game Performance</span><br><br>Earn $HAMC tokens while playing and<br>watch your rewards grow with your<br>gaming skills! The more adept you<br> become at the game, the greater the<br>amount of HAMC tokens you’ll earn.
+                </p>
+            </div>
+            <div class="boxtext">
+                <p class="text9"><span class="span1">Free Trade</span><br><br>Tokens can be easily exchanged on the<br>DEX and CEX. This feature allows you to<br>buy and sell tokens outside of our<br>platform.</p>
+            </div>
+        </div>
+        <div class="box9">
+            <h1 class="subtitle10">Roadmap</h1>
+            <p class="text10">Our vision extends beyond traditional boundaries. House of Hamsters<br>offers a unique blend of thrilling poker gameplay and the potential to earn<br>cryptocurrency rewards.</p>
+            <div class="subbox9">
+                <div class="boxtext2 bnd">
+                    <p class="text11"><span class="span2">2023</span></p>
+                    <p class="text11"><span class="span3">4th Quater</span></p>
+                    <p class="text11">– Seed funding round</p>
+                    <p class="text11">– Closed HOH App Beta testing</p>
+                    <p class="text11">– Jackpots System Implementation</p>
+                    <p class="text11">– Private funding round</p>
+                    <p class="text11">– Public HOH App Beta testing</p>
+                </div>
+                <div class="boxtext2">
+                    <p class="text11"><span class="span2">2024</span></p>
+                    <p class="text11"><span class="span3">1st Quater</span></p>
+                    <p class="text11">– Marketplace Launch</p>
+                    <p class="text11">– $HAMC Listing</p>
+                    <p class="text11">– On-chain Transactions Optimization</p>
+                    <p class="text11">– GOLDEN CHIP Tournament opening</p>
+                </div>
+                <div class="boxtext2">
+                    <p class="text11"><span class="span2">2024</span></p>
+                    <p class="text11"><span class="span3">2nd Quater</span></p>
+                    <p class="text11">– Cooperative game mode<br>implementation</p>
+                    <p class="text11">– PC version launch</p>
+                    <p class="text11">– User tournament organization system<br>development</p>
+                </div>
+            </div>
+        </div>
+        <div class="box10">
+            <h1 class="subtitle11"><span class="span4">Get </span>Luck<span class="span4"> and <br></span>Experience <span class="span4"> points<br>for free!</span></h1>
+            <div class="email">
+                <input class="input1" type="email" value="E-mail address">
+                <button class="but3">Sign Up</button>
+            </div>
+        </div>
+        <div class="box11">
+            <div class="left">
+            <p class="subtitle12"><span class="span5">Marketplace-soon</span></p>
+            <h1 class="subtitle13">Trade & Earn:</h1>
+            <p class="text12">Take part in a lively market. Earn $HOH by buying/selling and renting NFT.<br><br>
+                Increase your earnings in the game by buying NFT points, giving your<br>Hamster a unique style. You can also purchase an NFT table and receive a<br>portion of the commission from playing for tokens while playing at your<br>table.</p>
+            </div>
+                <div class="right">
+                    <img class="t10" src="Rare-682ebf8a.webp" alt="" class="hm">
+                    <img class="t10" src="Unusual-86897e61.webp" alt="" class="hm">
+                    <img class="t10" src="Common-a1cbe370.webp" alt="" class="hm">
+                </div>
+        </div>
+        <div class="box12">
+            <div class="left2">
+                <h1 class="subtitle14">FAQ</h1>
+                <p class="text13">You can ask any question here<br><span class="span6"><br>hello@hoh.game</span></p>
+            </div>
+            <div class="right2">
+                <p class="text14">Where can I learn more about the game?</p>
+                <p class="text14">Is it possible to play the HoH game without buying NFT?</p>
+                <p class="text14">What is the total supply of the Genesis NFT collection?</p>
+                <p class="text14">How can I earn in the HoH game?</p>
+                <p class="text14">What platforms will the HoH game be available on?</p>
+                <p class="text14">What other assets besides characters will be represented by NFT?</p>
+                <p class="text14">Is it possible to sell an NFT character via the HoH ecosystem?</p>
+            </div>
+        </div>
+</html>
